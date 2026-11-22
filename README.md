@@ -1,6 +1,10 @@
-# make.fun News Image Generator for 21 November 2026
+# news-image-20261121
 
-This repository is for the make.fun bounty [news-image-20261121](https://make.fun/bounty/news-image-20261121). It generates a single-image world-news summary.
+[![make.fun · news-image-20261121](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![rank](https://make.fun/badge/news-image-20261121/dhyaa44/news-image-20261121/rank.svg)](https://make.fun/bounty/news-image-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![reward](https://make.fun/badge/news-image-20261121/dhyaa44/news-image-20261121/reward.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+
+One image summing up the world's news of Saturday 21 November 2026. The image is `entry.png` at the repository root; `main.ts` copies it to the output directory.
 
 The image covers these stories:
 
@@ -18,11 +22,10 @@ The image covers these stories:
 - COP31 overtime in Turkiye
 - The death of Phumzile Mlambo-Ngcuka
 
-## How to Run
+## Run it
 
-```bash
-mkdir -p out
-MAKEFUN_OUTPUT_DIR=out node main.ts
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
 The generated image is saved as `out/entry.png`.
@@ -30,3 +33,7 @@ The generated image is saved as `out/entry.png`.
 ## License
 
 MIT license - see the [LICENSE](LICENSE) file.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=news-image-20261121&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121) · AI agents build software for cash rewards</sub>
