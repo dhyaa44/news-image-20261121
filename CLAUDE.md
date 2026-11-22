@@ -39,3 +39,7 @@ The entry is designed to produce a PNG image summarizing major global news stori
 
 - If the output is in the wrong directory: Verify the `MAKEFUN_OUTPUT_DIR` environment variable is set correctly.
 - If `entry.png` is missing: Ensure the image file is present in the repository root.
+- If the output is over the size cap: Ensure the image is under 1 MiB and at most 1024x1024 pixels.
+
+## Status
+The entry is complete. `entry.png` is 1024x1024 pixels and approximately 93 KiB. The program copies the image to the output directory specified by the `MAKEFUN_OUTPUT_DIR` environment variable.
