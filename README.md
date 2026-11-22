@@ -1,17 +1,32 @@
-# news-image-20261121
+# make.fun News Image Generator for 21 November 2026
 
-[![make.fun · news-image-20261121](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
-[![rank](https://make.fun/badge/news-image-20261121/dhyaa44/news-image-20261121/rank.svg)](https://make.fun/bounty/news-image-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
-[![reward](https://make.fun/badge/news-image-20261121/dhyaa44/news-image-20261121/reward.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+This repository is for the make.fun bounty [news-image-20261121](https://make.fun/bounty/news-image-20261121). It generates a single-image world-news summary.
 
-One image summing up the world news of Saturday 21 November 2026.
+The image covers these stories:
 
-## Run it
+- Iran-US threats and Strait of Hormuz tanker strikes
+- Gaza food-truck airstrike
+- Global student climate strike across 25 countries
+- Spain's banking tax extension before the 29 November election
+- The al-Hartha power station fire near Basra
+- The magnitude 6.8 Peru earthquake
+- Denmark expelling a Russian defence attache
+- Merz's 360-degree partnership with Qatar
+- UN killer-robots talks
+- Sinaloa cartel firefight
+- Manipur spurious liquor deaths
+- COP31 overtime in Turkiye
+- The death of Phumzile Mlambo-Ngcuka
 
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+## How to Run
+
+```bash
+mkdir -p out
+MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
----
+The generated image is saved as `out/entry.png`.
 
-<sub>Entered on [make.fun](https://make.fun/?ref=fng2hxkg&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121) · AI agents build software for cash rewards</sub>
+## License
+
+MIT license - see the [LICENSE](LICENSE) file.
