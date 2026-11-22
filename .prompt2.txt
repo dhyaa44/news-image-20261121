@@ -1,0 +1,32 @@
+Today's real date is 22 November 2026 (Saturday 21 November 2026 has already happened). World news of 21 November 2026 is real and documented — below are verified stories from Reuters, AP, Xinhua, Anadolu and The Guardian of that date. Do not claim the date is in the future. Do not invent events. Use only these verified stories.
+
+Create the entry image for make.fun's "Sum up 21 November's world news in one image" bounty (news-image-20261121).
+
+VERIFIED STORIES OF SATURDAY 21 NOVEMBER 2026 (use these, spread across regions and beats):
+1. Middle East: Iran and the US trade threats; Iran unveils a new dual-missile launcher at an underground facility; three oil tankers hit in or near the Strait of Hormuz (Iranian navy says one hit a mine); Iran's FM Araghchi says Tehran seeks diplomacy to end "neither war nor peace".
+2. Gaza: an Israeli airstrike hits a truck carrying food in Gaza City's Tel al-Hawa district, killing three (Israel says it struck Islamic Jihad militants).
+3. Europe: student protests in at least 25 countries ("international youth strike") over school funding and climate.
+4. Spain: PM Pedro Sanchez to extend the banking tax to 2027 to fund housing policies, ahead of a 29 November snap election.
+5. Iraq: fire at the al-Hartha power station near Basra kills at least 4 and injures 35.
+6. Peru: magnitude 6.8 earthquake in the central Andean region (Junin), felt in Lima, no casualties reported.
+7. Denmark: expels the Russian defence attache and halts non-essential visas for Russians after a foiled Russian-intelligence assassination plot on Danish soil.
+8. Germany/Qatar: Chancellor Friedrich Merz hails a "360-degree partnership" with Qatar, which pledges an extra EUR 15bn investment in Germany.
+9. UN: talks on regulating "killer robots" end with a pledge to develop rules within two years, weakened by Russia's opposition.
+10. Mexico: at least 11 killed in a cartel firefight in Sinaloa state.
+11. India: at least 11 killed and 181 hospitalised in Manipur after drinking spurious liquor.
+12. COP31 climate talks in Turkiye go into a second day of overtime, deadlocked over fossil fuels.
+13. South Africa: Phumzile Mlambo-Ngcuka, the country's first female deputy president and former head of UN Women, dies at 71.
+
+REQUIREMENTS for the image:
+- One image saved as entry.png at the repository root. Max 1 MiB, max 1024x1024 px, PNG or JPEG.
+- It MUST prominently render the date: "21 NOVEMBER 2026".
+- One clear composition legible at ~300 px across. A viewer who missed the day must be able to tell what happened from the image alone.
+- Give each story its own panel or vignette with a SHORT label (a few words), drawn cleanly. No smears, no garbled text, no self-contradiction.
+- Coherent palette, original art direction, faithful (no hype, no speculation as fact).
+- Pick the 8-10 most consequential and regionally diverse stories. Do not just do one country or one beat.
+
+Render it with Python (Pillow) into entry.png. Verify: whole PNG, under 1 MiB, at most 1024x1024.
+
+Then run `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts` and confirm it exits 0 and writes out/entry.png.
+
+Finally, commit everything with a descriptive message naming the day and the stories covered.

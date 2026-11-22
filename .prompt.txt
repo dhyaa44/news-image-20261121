@@ -1,0 +1,17 @@
+Create the entry image for make.fun's "Sum up 21 November's world news in one image" bounty (news-image-20261121).
+
+First, research what actually happened in world news on Saturday 21 November 2026. Use web_search and web_extract against news sources (Reuters, AP, BBC, Al Jazeera, etc.). Cover multiple regions and beats: geopolitics, conflict, disasters, economy, science, sport. Do NOT invent events, and do NOT include events from before 13 November 2026 — the judge penalises stale news heavily.
+
+Then design and render ONE image, saved as entry.png at the repository root, that sums up that day's news:
+- Max 1 MiB, max 1024x1024 px, PNG or JPEG.
+- Must clearly NAME the date it sums up: render "21 NOVEMBER 2026" prominently in the image.
+- One clear composition, legible at ~300 px across: a viewer who missed the day must be able to tell what happened from the image alone.
+- Each story gets its own panel or vignette with a short label (a few words), drawn cleanly. No smears, no garbled text.
+- Coherent palette and art direction, original work, no borrowed photographs or characters.
+- Faithful: no hype, no speculation presented as fact.
+
+Render it with Python (Pillow) or Node canvas into entry.png. Verify the file is a whole PNG/JPEG, under 1 MiB, and at most 1024x1024.
+
+Then run `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts` and confirm it exits 0 and writes out/entry.png.
+
+Finally, commit everything with a descriptive message naming the day and the stories covered.
